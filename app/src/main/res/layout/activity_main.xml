@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myprimary"
+    android:padding="@dimen/_16dp_dimen"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/my_note_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_notes_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_32sp_dimen"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/menu_btn"
+            android:layout_width="@dimen/_35dp_dimen"
+            android:layout_height="@dimen/_35dp_dimen"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/menu_icon" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notes_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar_layout"
+        android:layout_marginStart="@dimen/_10dp_dimen"
+        android:layout_marginTop="@dimen/_10dp_dimen"
+        android:layout_marginEnd="@dimen/_10dp_dimen"
+        android:layout_marginBottom="@dimen/_10dp_dimen" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_note_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/add_note_icon" />
+</RelativeLayout>

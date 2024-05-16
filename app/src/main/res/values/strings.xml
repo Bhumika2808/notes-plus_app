@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notes Plus</string>
+    <string name="edit_your_note">Edit your note</string>
+    <string name="hello_user_txt">Hello User!</string>
+    <string name="signup_intro_text">Let\'s get started</string>
+    <string name="email_id_hint_text">Email Id</string>
+    <string name="password_hint_text">Password</string>
+    <string name="confirm_password_hint_text">Confirm Password</string>
+    <string name="create_account_text">CREATE ACCOUNT</string>
+    <string name="already_have_an_account_text">Already have an account?</string>
+    <string name="login_text">Login</string>
+    <string name="add_new_note_txt">Add New Note</string>
+    <string name="title_text">Title</string>
+    <string name="content_text">Content</string>
+    <string name="my_notes_text">My Notes</string>
+    <string name="note_title_text">Note Title</string>
+    <string name="content_of_the_notes_text">content of the notes</string>
+    <string name="note_timestamp_text">note timestamp</string>
+</resources>

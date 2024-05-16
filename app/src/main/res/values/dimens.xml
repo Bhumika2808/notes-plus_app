@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="signup_icon_height">128dp</dimen>
+    <dimen name="acc_activity_margin">32dp</dimen>
+    <dimen name="intro_text_size">32sp</dimen>
+    <dimen name="intro_text_size2">36sp</dimen>
+    <dimen name="_16dp_dimen">16dp</dimen>
+    <dimen name="_20sp_text_size">20sp</dimen>
+    <dimen name="_64dp_dimen">64dp</dimen>
+    <dimen name="_16sp_text_size">16sp</dimen>
+    <dimen name="_24dp_dimen">24dp</dimen>
+    <dimen name="_12dp_dimen">12dp</dimen>
+    <dimen name="_32sp_dimen">32sp</dimen>
+    <dimen name="_35dp_dimen">35dp</dimen>
+    <dimen name="_26dp_dimen">26dp</dimen>
+    <dimen name="_20sp_dimen">20sp</dimen>
+    <dimen name="_8dp_dimen">8dp</dimen>
+    <dimen name="_40dp_dimen">40dp</dimen>
+    <dimen name="_15dp_dimen">15dp</dimen>
+    <dimen name="_10dp_dimen">10dp</dimen>
+    <dimen name="_18sp_dimen">18sp</dimen>
+    <dimen name="_4dp_dimen">4dp</dimen>
+    <dimen name="_12sp_dimen">12sp</dimen>
+</resources>
